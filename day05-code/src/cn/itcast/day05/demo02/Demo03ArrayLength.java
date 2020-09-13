@@ -9,5 +9,8 @@ public class Demo03ArrayLength {
         //array.length 获取数组长度
         System.out.println(ArrayB.length);
         System.out.println(Arrays.toString(ArrayB));
+        for (int i = 0; i < ArrayB.length; i++) {
+            System.out.println(ArrayB[i]);
+        }
     }
 }
